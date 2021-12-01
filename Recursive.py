@@ -19,10 +19,10 @@ def main():
     
 
 def sum_of_numbers_in_a_range (a,b):
-    if a==b
+    if a==b:
         return (a)
     else:
-        return(a+ sum_of_numbers,(a+1,b))
+        return(a+ sum_of_numbers_in_a_range(a+1,b))
 
  
 def product_of_2_whole_numbers (a,b):
